@@ -1,6 +1,6 @@
 print("Welcome to the Love Calculator!")
-name1 = input("What is your name? \n")
-name2 = input("What is their name? \n")
+name1 = input("What is your name? \n").lower()
+name2 = input("What is their name? \n").lower()
 
 name = name1+name2
 true_count = 0
